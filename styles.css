@@ -168,7 +168,7 @@ body {
 
 .skills__text {
   color: var(--secondary-text-color);
-  text-align: justify;
+  text-align: center;
 }
 
 /* Experience and additional info styles */
@@ -178,7 +178,7 @@ body {
 }
 
 .experiences__header {
-  color: var(--secondary-text-color);
+  color: var(--text-decoration-color);
   text-align: left;
   margin-bottom: 20px;
 }
@@ -227,6 +227,11 @@ body {
 
 .additional-info__education {
   margin-bottom: 20px;
+  color: var(--text-decoration-color);
+}
+
+.additional-info__education-university {
+  margin-bottom: 25px;
 }
 
 .additional-info__education-header {
@@ -246,6 +251,8 @@ body {
   color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 10px;
+  text-decoration-color: var(--text-decoration-color);
+  text-decoration-line: underline;
 }
 
 .additional-info__education-university-name {
